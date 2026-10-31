@@ -16,7 +16,7 @@ export function initialState() {
     units: { fuel: 'kg', durations: 'seconds', times: 'ISO-8601 UTC' },
     assumptions: ['Synthetic training airport; not operational aviation software.', 'Runway use: 60s arrival, 45s departure, 30s minimum reuse gap.', 'One aircraft reserves a taxiway for its complete taxi movement.', 'Fuel burn: airborne 0.7 kg/s, taxi/active runway 0.15 kg/s; reserve 900 kg.', 'Emergency, repair and inspection durations are scenario assumptions.'],
     airport: {
-      id: 'DEMO', name: 'Meridian International',
+      id: 'DEMO', name: 'CoolNUS International',
       runways: [resource('RWY-1', '09L / 27R'), resource('RWY-2', '09R / 27L')].map(r => ({ ...r, availableAfter: 0 })),
       taxiways: [resource('TWY-A', 'Alpha'), resource('TWY-B', 'Bravo')],
       gates: Array.from({ length: 6 }, (_, i) => ({ ...resource(`G${i + 1}`, `Gate ${i + 1}`), taxiwayId: i < 3 ? 'TWY-A' : 'TWY-B' }))

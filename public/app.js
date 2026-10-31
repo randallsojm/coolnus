@@ -160,7 +160,7 @@ $('inject').onclick=()=>fire(async()=>{await act({type:'incident',kind:$('incide
 $('auto-dispatch').onchange=e=>fire(()=>act({type:'auto_dispatch',enabled:e.target.checked}));
 $('agent-select').onchange=e=>{selectedId=e.target.value;void refreshObservation();};
 $('copy').onclick=()=>fire(async()=>{await navigator.clipboard.writeText(jsonText);toast('Agent observation copied.');});
-$('export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='meridian-state.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+$('export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='CoolNUS-state.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 const stream=new EventSource('/api/events');
 stream.onmessage=e=>{render(JSON.parse(e.data));$('connection').textContent='STATE CONNECTED';};
 stream.onerror=()=>{$('connection').textContent='RECONNECTING';};

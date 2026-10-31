@@ -1,4 +1,4 @@
-# CoolNUS · Meridian Airport Simulator
+# CoolNUS · CoolNUS Airport Simulator
 
 A local airport simulator for Autonomous SG Challenge 2. Import airport parameters, preview flight CSV/TSV data, and inject **one selected flight occurrence** into a shared simulation. The dashboard, JSON observations, exported state and persisted snapshots use the same authoritative state.
 

@@ -1,0 +1,38 @@
+{
+ "_about": "Aircraft catalogue. Every aircraft in a scenario must name one of these types. Burn rates and speeds are STARTER VALUES for the hackathon (A320/737 and A330/777 holding burns match the workbook); replace them with your own figures and state any changes in the demo.",
+ "_fields": {
+  "class": "regional | narrowbody | widebody | super",
+  "wake_category": "SUPER | HEAVY | LARGE | SMALL (workbook wake_separation table)",
+  "gate_size": "smallest gate size it fits: regional < narrowbody < widebody < super",
+  "cruise_burn_kg_h": "fuel burn en route",
+  "holding_burn_kg_h": "fuel burn while holding",
+  "cruise_speed_kt": "used for time to an alternate airport",
+  "approach_speed_kt": "used to turn wake separation (NM) into minutes between landings"
+ },
+ "types": {
+  "B190": {"name": "Beechcraft 1900D", "class": "regional", "wake_category": "SMALL", "gate_size": "regional",
+           "cruise_burn_kg_h": 330, "holding_burn_kg_h": 280, "cruise_speed_kt": 280, "approach_speed_kt": 115},
+  "CRJ2": {"name": "Bombardier CRJ200", "class": "regional", "wake_category": "LARGE", "gate_size": "regional",
+           "cruise_burn_kg_h": 1100, "holding_burn_kg_h": 1000, "cruise_speed_kt": 430, "approach_speed_kt": 140},
+  "CRJ9": {"name": "Bombardier CRJ900", "class": "regional", "wake_category": "LARGE", "gate_size": "regional",
+           "cruise_burn_kg_h": 1500, "holding_burn_kg_h": 1300, "cruise_speed_kt": 450, "approach_speed_kt": 140},
+  "E175": {"name": "Embraer E175", "class": "regional", "wake_category": "LARGE", "gate_size": "regional",
+           "cruise_burn_kg_h": 1700, "holding_burn_kg_h": 1450, "cruise_speed_kt": 450, "approach_speed_kt": 135},
+  "A320": {"name": "Airbus A320", "class": "narrowbody", "wake_category": "LARGE", "gate_size": "narrowbody",
+           "cruise_burn_kg_h": 2500, "holding_burn_kg_h": 2400, "cruise_speed_kt": 450, "approach_speed_kt": 137},
+  "B738": {"name": "Boeing 737-800", "class": "narrowbody", "wake_category": "LARGE", "gate_size": "narrowbody",
+           "cruise_burn_kg_h": 2550, "holding_burn_kg_h": 2400, "cruise_speed_kt": 450, "approach_speed_kt": 145},
+  "A321": {"name": "Airbus A321", "class": "narrowbody", "wake_category": "LARGE", "gate_size": "narrowbody",
+           "cruise_burn_kg_h": 2900, "holding_burn_kg_h": 2700, "cruise_speed_kt": 450, "approach_speed_kt": 142},
+  "B763": {"name": "Boeing 767-300", "class": "widebody", "wake_category": "HEAVY", "gate_size": "widebody",
+           "cruise_burn_kg_h": 5000, "holding_burn_kg_h": 4600, "cruise_speed_kt": 460, "approach_speed_kt": 140},
+  "A333": {"name": "Airbus A330-300", "class": "widebody", "wake_category": "HEAVY", "gate_size": "widebody",
+           "cruise_burn_kg_h": 6800, "holding_burn_kg_h": 6500, "cruise_speed_kt": 470, "approach_speed_kt": 137},
+  "B772": {"name": "Boeing 777-200", "class": "widebody", "wake_category": "HEAVY", "gate_size": "widebody",
+           "cruise_burn_kg_h": 7000, "holding_burn_kg_h": 6500, "cruise_speed_kt": 480, "approach_speed_kt": 145},
+  "B789": {"name": "Boeing 787-9", "class": "widebody", "wake_category": "HEAVY", "gate_size": "widebody",
+           "cruise_burn_kg_h": 5600, "holding_burn_kg_h": 5200, "cruise_speed_kt": 480, "approach_speed_kt": 145},
+  "A388": {"name": "Airbus A380-800", "class": "super", "wake_category": "SUPER", "gate_size": "super",
+           "cruise_burn_kg_h": 11500, "holding_burn_kg_h": 10500, "cruise_speed_kt": 480, "approach_speed_kt": 145}
+ }
+}

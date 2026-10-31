@@ -1,0 +1,21 @@
+IATA_CODE,AIRPORT,CITY,STATE,delayed_departures_in_flights_csv,size_class,active_runways,gates,max_runway_ops_per_hour,min_turnaround_min,spare_gates_at_any_time
+ORD,Chicago O'Hare International Airport,Chicago,IL,25274,Large hub,4,150,90,45,3
+ATL,Hartsfield-Jackson Atlanta International Airport,Atlanta,GA,17606,Large hub,4,150,90,45,3
+DFW,Dallas/Fort Worth International Airport,Dallas-Fort Worth,TX,17484,Large hub,4,150,90,45,3
+DEN,Denver International Airport,Denver,CO,15480,Large hub,4,150,90,45,3
+LAX,Los Angeles International Airport,Los Angeles,CA,14854,Large hub,4,150,90,45,3
+SFO,San Francisco International Airport,San Francisco,CA,12182,Medium hub,3,70,60,35,3
+LAS,McCarran International Airport,Las Vegas,NV,10104,Medium hub,3,70,60,35,3
+LGA,LaGuardia Airport (Marine Air Terminal),New York,NY,9575,Medium hub,3,70,60,35,3
+IAH,George Bush Intercontinental Airport,Houston,TX,9354,Medium hub,3,70,60,35,3
+MCO,Orlando International Airport,Orlando,FL,8711,Medium hub,3,70,60,35,3
+PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,8238,Medium hub,3,70,60,35,3
+EWR,Newark Liberty International Airport,Newark,NJ,7330,Medium hub,3,70,60,35,3
+BOS,Gen. Edward Lawrence Logan International Airport,Boston,MA,6488,Medium hub,3,70,60,35,3
+BWI,Baltimore-Washington International Airport,Baltimore,MD,6330,Medium hub,3,70,60,35,3
+MDW,Chicago Midway International Airport,Chicago,IL,6293,Medium hub,3,70,60,35,3
+JFK,John F. Kennedy International Airport (New York International Airport),New York,NY,5993,Medium hub,3,70,60,35,3
+DTW,Detroit Metropolitan Airport,Detroit,MI,5174,Medium hub,3,70,60,35,3
+MSP,Minneapolis-Saint Paul International Airport,Minneapolis,MN,5060,Medium hub,3,70,60,35,3
+MIA,Miami International Airport,Miami,FL,5013,Medium hub,3,70,60,35,3
+SAN,San Diego International Airport (Lindbergh Field),San Diego,CA,4960,Medium hub,3,70,60,35,3
